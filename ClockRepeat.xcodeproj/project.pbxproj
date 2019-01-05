@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9BA71A1521E0F712009EC1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA71A1421E0F712009EC1DE /* AppDelegate.swift */; };
-		9BA71A1721E0F712009EC1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA71A1621E0F712009EC1DE /* ViewController.swift */; };
 		9BA71A1A21E0F712009EC1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA71A1821E0F712009EC1DE /* Main.storyboard */; };
 		9BA71A1C21E0F714009EC1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA71A1B21E0F714009EC1DE /* Assets.xcassets */; };
 		9BA71A1F21E0F714009EC1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA71A1D21E0F714009EC1DE /* LaunchScreen.storyboard */; };
+		9BA71A2721E0F8FC009EC1DE /* EditEventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA71A2621E0F8FC009EC1DE /* EditEventTableViewController.swift */; };
+		9BA71A2921E0F924009EC1DE /* RepeatFrequencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA71A2821E0F924009EC1DE /* RepeatFrequencyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BA71A1121E0F712009EC1DE /* ClockRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA71A1421E0F712009EC1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BA71A1621E0F712009EC1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BA71A1921E0F712009EC1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA71A1B21E0F714009EC1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA71A1E21E0F714009EC1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA71A2021E0F714009EC1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA71A2621E0F8FC009EC1DE /* EditEventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventTableViewController.swift; sourceTree = "<group>"; };
+		9BA71A2821E0F924009EC1DE /* RepeatFrequencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatFrequencyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				9BA71A1421E0F712009EC1DE /* AppDelegate.swift */,
-				9BA71A1621E0F712009EC1DE /* ViewController.swift */,
 				9BA71A1821E0F712009EC1DE /* Main.storyboard */,
+				9BA71A2621E0F8FC009EC1DE /* EditEventTableViewController.swift */,
+				9BA71A2821E0F924009EC1DE /* RepeatFrequencyTableViewController.swift */,
 				9BA71A1B21E0F714009EC1DE /* Assets.xcassets */,
 				9BA71A1D21E0F714009EC1DE /* LaunchScreen.storyboard */,
 				9BA71A2021E0F714009EC1DE /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA71A1721E0F712009EC1DE /* ViewController.swift in Sources */,
+				9BA71A2921E0F924009EC1DE /* RepeatFrequencyTableViewController.swift in Sources */,
+				9BA71A2721E0F8FC009EC1DE /* EditEventTableViewController.swift in Sources */,
 				9BA71A1521E0F712009EC1DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
